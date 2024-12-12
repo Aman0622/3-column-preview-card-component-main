@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 99vh;
+}
+
+#span {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 1em;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 2em;
+  font-size: 16px;
+}
+
+#maindiv {
+  width: 55%;
+  border: 1px solid white;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 6em;
+}
+
+#sedan {
+  width: 33.3%;
+  border: 1px solid black;
+  padding: 2em;
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+
+#suv {
+  width: 33.3%;
+  border: 1px solid black;
+  border-style: none;
+  padding: 2em;
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+
+#luxury {
+  width: 33.4%;
+  border: 1px solid black;
+  border-style: none;
+  padding: 2em;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  height: 3em;
+  width: 60%;
+  margin-top: 5em;
+  border-radius: 30px;
+  border-style: none;
+  font-weight: 700;
+}
+
+#button1 {
+  color: hsl(31, 77%, 52%);
+}
+
+#button2 {
+  color: hsl(184, 100%, 22%);
+}
+
+#button3 {
+  color: hsl(179, 100%, 13%);
+}
+@media screen and (max-width: 1050px) {
+  #maindiv {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #maindiv {
+    width: 90%;
+    display: block;
+    margin: 2em auto;
+  }
+  #sedan {
+    width: 90%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #suv {
+    width: 90%;
+  }
+  #luxury {
+    width: 90%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  #maindiv {
+    width: 90%;
+    display: block;
+    margin: 2em auto;
+  }
+  #sedan {
+    width: 90%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  #suv {
+    width: 90%;
+  }
+  #luxury {
+    width: 90%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+}
